@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finddoctor_theeasyway">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FindDoctorTheEasyWay">
+        <activity android:name=".activity.PhysiotherapistActivity"/>
+        <activity android:name=".activity.GeneralMedicineActivity" />
+        <activity android:name=".activity.SexologistActivity" />
+        <activity android:name=".activity.EndocrinologistActivity" />
+        <activity android:name=".activity.OphthalmologistsActivity" />
+        <activity android:name=".activity.NephrologistActivity" />
+        <activity android:name=".activity.PsychiatristActivity" />
+        <activity android:name=".activity.NeonatologistActivity" />
+        <activity android:name=".activity.PediatricianActivity" />
+        <activity android:name=".activity.DermatologistActivity" />
+        <activity android:name=".activity.GastroenterologistActivity" />
+        <activity android:name=".activity.DentistActivity" />
+        <activity android:name=".activity.UrologistActivity" />
+        <activity android:name=".activity.ENTSpecialistActivity" />
+        <activity android:name=".activity.OrthopedicSurgeonActivity" />
+        <activity android:name=".activity.NeurologistActivity" />
+        <activity android:name=".activity.GynecologistActivity" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
